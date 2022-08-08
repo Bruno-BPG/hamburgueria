@@ -1,0 +1,43 @@
+* {
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  height: 75px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  margin-right: 0px;
+  height: 45px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.logo {
+  font-size: 20px;
+  margin-left: 110px;
+  color: #333333;
+}
+
+.vermelho {
+  font-size: 14px;
+  color: #eb5757;
+}
+
+.btnPesquisa {
+  position: relative;
+  left: -110px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #27ae60;
+  color: aliceblue;
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+}
